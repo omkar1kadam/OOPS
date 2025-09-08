@@ -75,3 +75,9 @@ int main() {
 
     return 0;
 }
+
+
+
+
+// ++obj → prefix → calls operator++() (member, no parameters).
+//obj++ → postfix → calls operator++(int) (friend, with dummy int).
